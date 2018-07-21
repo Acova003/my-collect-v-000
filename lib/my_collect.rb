@@ -5,7 +5,6 @@ def my_collect(collection)
     my_collect(collection) do |el|
       new_arr << yield(collection[i])
       i += 1
-    end
   end
   new_arr
 end 
